@@ -1,0 +1,91 @@
+/* MEDIA QUERIES */
+
+/* 991PX */
+
+@media (max-width: 991px) {
+  /* HEADER */
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
+/* 768PX */
+@media (max-width: 768px) {
+  /* HEADER */
+  #menu-btn {
+    display: initial;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 115%;
+    right: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    width: 30rem;
+    border: var(---border);
+    background: #fff;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top right;
+    transition: none;
+  }
+
+  /* .navbar .active verdiğimde hata verdi(arada boşluk bıraktığım durumda )Bitişik yazdığımda çalıştı.(.navbar.active) */
+  .header .navbar.active {
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.2s ease-out;
+  }
+  .header .navbar a {
+    font-size: 2rem;
+    display: block;
+    margin: 2.5rem;
+  }
+  .home .content {
+    margin-left: 2.8rem;
+  }
+  .icons-container {
+    padding: 5rem;
+  }
+
+  .services .box-container {
+    margin-top: 5rem;
+    margin-left: 13rem;
+  }
+  .about .row .content {
+    padding: 4rem;
+    margin-left: 3.2rem;
+  }
+  .doctors .box-container .box {
+    margin: 0 3rem;
+  }
+  .book .row form {
+    margin: 0 2rem;
+  }
+  .review .box-container .box {
+    margin-top: 5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+  .blogs .box-container .box {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 4rem;
+  }
+  .footer .box-container .box {
+    margin: 0 5rem;
+  }
+}
+/* 450PX */
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
