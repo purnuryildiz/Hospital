@@ -6,11 +6,13 @@
 
 <h1>Features</h1>
 
-<p>
+<list>
 - Responsive Design: Adapts to all screen sizes for a seamless experience.
+  
 - Customizable Components: Easily adjust content and style to match your brand.
+  
 - User-Friendly Navigation: Intuitive navigation for easy access.
-</p>
+</list>
 
 <h2> Preview: </h2>
 
