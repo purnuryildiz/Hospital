@@ -8,9 +8,7 @@
 
 <list>
   
-- Responsive Design: Adapts to all screen sizes for a seamless experience.
-  
-- Customizable Components: Easily adjust content and style to match your brand.
+- Responsive Design: Adapts to all screen sizes for a seamless experience. 
   
 - User-Friendly Navigation: Intuitive navigation for easy access.
   
